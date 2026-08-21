@@ -1,0 +1,56 @@
+{
+  "name": "SETU Flood Relief & Rescue Network",
+  "short_name": "SETU Relief",
+  "description": "Real-Time Flood Emergency SOS, Rescue Dispatch & Relief Camp Supply Network",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#070a12",
+  "theme_color": "#0d1322",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "medical", "government"],
+  "shortcuts": [
+    {
+      "name": "Send SOS Emergency",
+      "short_name": "SOS Alert",
+      "description": "Submit an urgent citizen flood rescue SOS",
+      "url": "/?tab=victim",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Interactive Flood Map",
+      "short_name": "Map Grid",
+      "description": "View live flood rescue pins and camps",
+      "url": "/?tab=map",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Camp Supply Hub",
+      "short_name": "Camp Supplies",
+      "description": "Camp requisitions and logistics",
+      "url": "/?tab=camps",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ]
+}

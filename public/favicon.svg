@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gradWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="gradBridge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#gradBg)"/>
+  
+  <!-- Bridge Arch Structure (SETU = Bridge) -->
+  <path d="M 96 320 C 160 210, 352 210, 416 320 L 416 280 C 352 170, 160 170, 96 280 Z" fill="url(#gradBridge)" opacity="0.95"/>
+  <rect x="180" y="240" width="16" height="80" rx="4" fill="#cbd5e1"/>
+  <rect x="248" y="222" width="16" height="98" rx="4" fill="#cbd5e1"/>
+  <rect x="316" y="240" width="16" height="80" rx="4" fill="#cbd5e1"/>
+  
+  <!-- Flood Waves Below -->
+  <path d="M 64 360 C 120 330, 180 390, 256 360 C 330 330, 390 390, 448 360 L 448 440 L 64 440 Z" fill="url(#gradWave)" opacity="0.8"/>
+  <path d="M 64 395 C 130 365, 190 425, 256 395 C 322 365, 382 425, 448 395 L 448 448 L 64 448 Z" fill="#0284c7" opacity="0.9"/>
+  
+  <!-- Beacon / Emergency Pulse -->
+  <circle cx="256" cy="140" r="28" fill="#f59e0b"/>
+  <circle cx="256" cy="140" r="44" fill="none" stroke="#f59e0b" stroke-width="6" stroke-dasharray="10 8" opacity="0.8"/>
+  <circle cx="256" cy="140" r="14" fill="#fef3c7"/>
+</svg>
